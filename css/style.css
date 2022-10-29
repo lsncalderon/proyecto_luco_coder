@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Home*/
+
+.menu-container {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-decoration {
+    text-decoration: none;
+    color: #404042;
+}
+
+.menu {
+    border: 0px solid white;
+    width: 230%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.logo-principal {
+    width: 160px;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    
+}
+
+.home-central {
+    display: flex;
+    justify-content: center;
+}
+
+/*Fin Home*/
+
+/*Footer*/
+.footer-container {
+    background-color: #ABDBCA;
+    padding: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.footer {
+    width: 10%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-redes{
+    width: 30px;
+}
+
+/*Fin Footer*/
+
+
+/*Productos*/
+
+.productos-titulo {
+    margin-top: 50px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: flex;
+}
+
+.product-container{
+    color: #404042;
+    display: flex;
+    justify-content: center;
+}
+
+.product{
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.pileta {
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.paragraph-maceta {
+    display: flex;
+    justify-content: center;
+}
+
+/*Fin Productos*/
+
+/*Sobre nosotros*/
+
+.nosotros-titulo {
+    margin: 50px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: flex;
+    }
+
+.nosotros-container {
+    display: flex;
+    justify-content: center;
+}
+
+.nosotros {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.paragraph-nosotros{
+    display: flex;
+    justify-content: left;
+    align-items: end;
+}
+
+.nosotros-text{
+    width: 60%;
+    color: #404042;
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: flex;
+    justify-content:space-between; 
+
+}
+
+/*Sobre nosotros. Miembros*/
+.mienbros-container {
+    display: flex;
+    justify-content: center;
+}
+
+.mienbros {
+    margin: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.mienbros-titulo {
+    display: flex;
+    justify-content: start;
+   }
+
+.mienbros-text{
+    margin: 5%;
+    width: 70%;
+    color: #404042;
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: flex;
+    justify-content:space-between; 
+}
+
+.mienbros-imagen {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+/*Fin Sobre nosotros*/
+
+/*Contacto*/
+.contacto-titulo {
+    margin: 50px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: flex;
+    justify-content: left;
+    }
+
+.contacto-container {
+    display: flex;
+    justify-content: start;
+}
+
+.contacto {
+    margin: 5%;
+    display: flex;
+    justify-content: start;
+}
+
+.contacto-text{
+    margin: 5%;
+    color: #404042;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.mapa {
+    margin: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.datos-container {
+    margin: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.datos {
+    color: #404042;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+/*Fin Contacto*/
