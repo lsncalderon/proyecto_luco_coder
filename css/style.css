@@ -6,7 +6,6 @@
 }
 
 /*Estilos Home*/
-
 .bg-luco {
     font-family: 'Montserrat Alternates', sans-serif;
     background-color: #e8e4e5;
@@ -25,34 +24,28 @@
     transform: rotate(360deg); scale: (2);
     transition: all 4s;
 }
-
 /*Fin Estilos Home*/
 
 /*Estilos Footer*/
-
 .footer-container {
     background-color: #ABDBCA;
     padding: 20px;
     display: flex;
-    justify-content: right;
+    justify-content:right;
 }
 
 .footer {
     background-color: #ABDBCA;
     padding: 20px;
-    display: flex;
-    justify-content: right;
     width: 10%;
-    margin-right: 20%;
+    margin-right: 5%;
     display: flex;
     justify-content: space-around;
 }
 
-
 .logo-redes{
     width: 30px;
 }
-
 /*Fin Estilos Footer*/
 
 
@@ -60,73 +53,75 @@
 .text-nosotros{
     color: #404042;
     font-family: 'Montserrat Alternates', sans-serif;
+    margin-right: 40px;
+}
+
+.text-mienbros {
+    color: #404042;
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: flex;
+    justify-content: center; 
 }
 
 .mienbros-imagen {
     width: 50%;
 }
+
 /*Fin estilos nosotros*/
 
 /*Estilos Productos*/
-.productos-titulo {
-    margin-top: 50px;
+.product-title {
+    color: #404042;
     font-family: 'Montserrat Alternates', sans-serif;
-    display: flex center;
 }
 
+.product{
+    display: flex;
+    justify-content: center;
+}
 
-.maceta-pileta:hover {
+.macetas-portavasos:hover {
     transform: scale(1.2);
 }
 
-.maceta-faro:hover {
-    transform: scale(1.2);
-
-}
-.maceta-pileta, .maceta-faro {
-    margin-right: 60px;
+.macetas-portavasos {
     margin-bottom: 20px;
     transition: all 2s;
 }
 
 .paragraph-maceta {
-    margin: 10px;
     font-family: 'Montserrat Alternates', sans-serif;
-    display: flex;
-    justify-content: center;
-   
 }
 
 /*Fin Estilos Productos*/
 
-
-/*Estilos Contacto*/
-.contacto-titulo {
-    margin: 50px;
-    font-family: 'Montserrat Alternates', sans-serif;
-    display: flex;
-    justify-content: left;
-    }
-
-.contacto-container {
-    display: flex;
-    justify-content: start;
-}
-
-.contacto {
-    margin: 5%;
-    display: flex;
-    justify-content: start;
-}
-
-.contacto-text{
-    margin: 5%;
+/*Estilos Blog*/
+.text-cuidados {
     color: #404042;
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
+/*Fin de Estilos Blog*/
+
+/*Estilos Contacto*/
+.contacto-titulo {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.contacto-text{
+    color: #404042;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.contacto-title {
+    color: #404042;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-bottom: 30px;
+}
+
 .mapa {
-    margin: 100px;
+    width: 90%;
+    margin-top: 50px;
     display: flex;
     justify-content: flex-start;
 }
