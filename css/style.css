@@ -74,14 +74,9 @@
     display: flex center;
 }
 
-.product{
-    display: flex;
-    justify-content: center;
-}
 
 .maceta-pileta:hover {
     transform: scale(1.2);
-
 }
 
 .maceta-faro:hover {
