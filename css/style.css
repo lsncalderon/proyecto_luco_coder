@@ -5,58 +5,40 @@
     padding: 0;
 }
 
-/*Home*/
-
-.menu-container {
-    padding: 100px;
-    display: flex;
-    justify-content: center;
-}
-
-.text-decoration {
-    text-decoration: none;
-    color: #404042;
-}
-
-.menu {
-    border: 0px solid white;
-    width: 230%;
+/*Estilos Home*/
+.bg-luco {
     font-family: 'Montserrat Alternates', sans-serif;
-    display: flex;
-    justify-content: space-around;
-
+    background-color: #e8e4e5;
 }
 
-ul {
-    list-style: none;
+.text-inicio {
+    color: #404042;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .logo-principal {
-    width: 160px;
-    position: absolute;
-    top: 5%;
-    left: 15%;
-    
+    width: 80px;
 }
 
-.home-central {
-    display: flex;
-    justify-content: center;
+.logo-principal:hover{
+    transform: rotate(360deg); scale: (2);
+    transition: all 4s;
 }
+/*Fin Estilos Home*/
 
-/*Fin Home*/
-
-/*Footer*/
+/*Estilos Footer*/
 .footer-container {
     background-color: #ABDBCA;
     padding: 20px;
     display: flex;
-    justify-content: right;
+    justify-content:right;
 }
 
 .footer {
+    background-color: #ABDBCA;
+    padding: 20px;
     width: 10%;
-    margin-right: 20%;
+    margin-right: 5%;
     display: flex;
     justify-content: space-around;
 }
@@ -64,137 +46,82 @@ ul {
 .logo-redes{
     width: 30px;
 }
+/*Fin Estilos Footer*/
 
-/*Fin Footer*/
 
-
-/*Productos*/
-
-.productos-titulo {
-    margin-top: 50px;
-    font-family: 'Montserrat Alternates', sans-serif;
-    display: flex;
-}
-
-.product-container{
+/*Estilos nosotros*/
+.text-nosotros{
     color: #404042;
-    display: flex;
-    justify-content: center;
-}
-
-.product{
     font-family: 'Montserrat Alternates', sans-serif;
-    display: flex;
-    justify-content: center;
+    margin-right: 40px;
 }
 
-.pileta {
-    margin-right: 30px;
-    margin-bottom: 20px;
-}
-
-.paragraph-maceta {
-    display: flex;
-    justify-content: center;
-}
-
-/*Fin Productos*/
-
-/*Sobre nosotros*/
-
-.nosotros-titulo {
-    margin: 50px;
-    font-family: 'Montserrat Alternates', sans-serif;
-    display: flex;
-    }
-
-.nosotros-container {
-    display: flex;
-    justify-content: center;
-}
-
-.nosotros {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.paragraph-nosotros{
-    display: flex;
-    justify-content: left;
-    align-items: end;
-}
-
-.nosotros-text{
-    width: 60%;
+.text-mienbros {
     color: #404042;
     font-family: 'Montserrat Alternates', sans-serif;
     display: flex;
-    justify-content:space-between; 
-
-}
-
-/*Sobre nosotros. Miembros*/
-.mienbros-container {
-    display: flex;
-    justify-content: center;
-}
-
-.mienbros {
-    margin: 10%;
-    display: flex;
-    justify-content: space-between;
-    align-self: center;
-}
-
-.mienbros-titulo {
-    display: flex;
-    justify-content: start;
-   }
-
-.mienbros-text{
-    margin: 5%;
-    width: 70%;
-    color: #404042;
-    font-family: 'Montserrat Alternates', sans-serif;
-    display: flex;
-    justify-content:space-between; 
+    justify-content: center; 
 }
 
 .mienbros-imagen {
     width: 50%;
-    display: flex;
-    justify-content: center;
-}
-/*Fin Sobre nosotros*/
-
-/*Contacto*/
-.contacto-titulo {
-    margin: 50px;
-    font-family: 'Montserrat Alternates', sans-serif;
-    display: flex;
-    justify-content: left;
-    }
-
-.contacto-container {
-    display: flex;
-    justify-content: start;
 }
 
-.contacto {
-    margin: 5%;
-    display: flex;
-    justify-content: start;
-}
+/*Fin estilos nosotros*/
 
-.contacto-text{
-    margin: 5%;
+/*Estilos Productos*/
+.product-title {
     color: #404042;
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
+.product{
+    display: flex;
+    justify-content: center;
+}
+
+.macetas-portavasos:hover {
+    transform: scale(1.2);
+}
+
+.macetas-portavasos {
+    margin-bottom: 20px;
+    transition: all 2s;
+}
+
+.paragraph-maceta {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/*Fin Estilos Productos*/
+
+/*Estilos Blog*/
+.text-cuidados {
+    color: #404042;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/*Fin de Estilos Blog*/
+
+/*Estilos Contacto*/
+.contacto-titulo {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.contacto-text{
+    color: #404042;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.contacto-title {
+    color: #404042;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-bottom: 30px;
+}
+
 .mapa {
-    margin: 100px;
+    width: 90%;
+    margin-top: 50px;
     display: flex;
     justify-content: flex-start;
 }
@@ -210,4 +137,4 @@ ul {
     font-family: 'Montserrat Alternates', sans-serif;
 
 }
-/*Fin Contacto*/
+/*Fin estilos Contacto*/
