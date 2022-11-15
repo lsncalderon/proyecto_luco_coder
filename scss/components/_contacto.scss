@@ -1,0 +1,23 @@
+/*Estilos Contacto*/
+.contacto {
+    h1{
+        font-family: 'Comfortaa';
+        color: #ABDBCA;
+        @media screen and (max-width:600px){
+            color: #FFA384;
+            }
+    }
+    p{
+        font-family: 'Montserrat Alternates';
+        color: #404042;
+    }
+    .mapa {
+        width: 90%;
+        margin-top: 50px;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+
+/*Fin estilos Contacto*/

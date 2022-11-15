@@ -1,0 +1,18 @@
+/*Estilos inicio*/
+@import '../base/variables';
+
+.carousel {
+    h1{
+        font-family: $font-principal;
+        color: #6b6b6d;
+        @media screen and (max-width:600px){
+            color: #FFA384;
+            }
+    }
+    p{
+        font-family: $font-secundaria;
+        font-size: 15px;
+        color: #6b6b6d;
+    }
+}
+/*Fin Estilos inicio*/

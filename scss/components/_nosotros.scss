@@ -1,0 +1,38 @@
+/*Estilos nosotros*/
+
+@import '../base/variables';
+
+.nosotros {
+    h1{
+        font-family: 'Comfortaa';
+        color: #FFA384;
+        @media screen and (max-width:600px){
+            color: #ABDBCA;
+            }
+    }
+    p{
+        font-family: 'Montserrat Alternates';
+        color: #404042;
+        @media screen and (max-width:1000px){
+            font-size: $font-size;
+            } 
+    }
+}
+
+.miembros {
+    h2 {font-family: 'Comfortaa';
+        color: #ABDBCA;
+        @media screen and (max-width:600px){
+            color: #FFA384;
+            }
+    }
+    p{
+        font-family: 'Montserrat Alternates';
+        color: #404042;
+        @media screen and (max-width:1000px){
+            font-size: 12px;
+            } 
+    }
+}
+
+/*Fin estilos nosotros*/

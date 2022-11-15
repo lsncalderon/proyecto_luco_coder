@@ -1,0 +1,26 @@
+/*Estilos Productos*/
+
+.productos {
+    h1{
+        font-family: 'Comfortaa';
+        color: #FFA384;
+        @media screen and (max-width:600px){
+            color: #ABDBCA;
+            }
+    }
+    p{
+        font-family: 'Montserrat Alternates';
+        color: #404042;
+    }
+
+    .macetas-portavasos:hover {
+        transform: scale(1.05);
+    }
+    
+    .macetas-portavasos {
+        margin-bottom: 20px;
+        transition: all 0.5s;
+    }
+}
+
+/*Fin Estilos Productos*/

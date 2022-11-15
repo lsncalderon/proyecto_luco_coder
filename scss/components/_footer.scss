@@ -1,0 +1,28 @@
+/*Estilos Footer*/
+
+footer{
+    background-color:#ABDBCA;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+
+    .logo-redes{
+        width: 30px;
+        margin: 10px;
+        }
+    p{
+        font-family: 'Comfortaa'; 
+        padding: 10px;
+        color: #404042; 
+    }   
+    @media screen and (max-width:600px){
+        font-size: 10px;
+        } 
+}
+
+
+
+
+
+
+/*Fin Estilos Footer*/

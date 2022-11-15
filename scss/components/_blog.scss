@@ -1,0 +1,21 @@
+/*Estilos Blog*/
+
+@import '../base/listas';
+
+.blog {
+    h1{
+        font-family: 'Comfortaa';
+        color: nth($color-brand, 3);
+        @media screen and (max-width:600px){
+            color: nth($color-brand, 4);
+            }
+    }
+    p{
+        font-family: 'Montserrat Alternates';
+        color: #404042;
+                @media screen and (max-width:1000px){
+            font-size: 12px;
+            } 
+    }
+}
+/*Fin de Estilos Blog*/
