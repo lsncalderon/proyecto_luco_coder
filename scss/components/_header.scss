@@ -1,21 +1,25 @@
+@import '../base/variables';
+@import '../base/listas';
+
+
 /*Estilos header*/
 header {
-    background-color: #D7D3D4;
+    background-color: nth($color-brand, 6);
     nav{
-        ul{
-            
+        ul{ 
             li{
                 a{
                 font-family: 'Comfortaa';
                 &:hover{
-                    background-color:#a6a2a3;
+                    background-color:nth($color-brand, 1);
+                    border-radius: 8px;
                     }
                 }
             }
         }
     }
     @media screen and (max-width:600px){
-        background-color:#ABDBCA;
+        background-color:nth($color-brand, 3);
     }
 
     .logo-principal {

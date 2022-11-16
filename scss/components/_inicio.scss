@@ -1,18 +1,22 @@
 /*Estilos inicio*/
 @import '../base/variables';
+@import '../base/listas';
 
 .carousel {
     h1{
         font-family: $font-principal;
-        color: #6b6b6d;
+        color: nth($color-brand, 1);
         @media screen and (max-width:600px){
-            color: #FFA384;
+            color: nth($color-brand, 4);
             }
     }
     p{
         font-family: $font-secundaria;
-        font-size: 15px;
-        color: #6b6b6d;
+        font-size: nth($font-size, 2);
+        @media screen and (max-width:600px){
+            font-size: nth($font-size, 1);
+            } 
+        color: nth($color-brand, 2);
     }
 }
 /*Fin Estilos inicio*/

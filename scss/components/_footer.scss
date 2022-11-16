@@ -1,7 +1,10 @@
+@import '../base/variables';
+@import '../base/listas';
+
 /*Estilos Footer*/
 
 footer{
-    background-color:#ABDBCA;
+    background-color: nth($color-brand, 3);
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -11,12 +14,12 @@ footer{
         margin: 10px;
         }
     p{
-        font-family: 'Comfortaa'; 
+        font-family: $font-principal; 
         padding: 10px;
-        color: #404042; 
+        color: nth($color-brand, 2); 
     }   
     @media screen and (max-width:600px){
-        font-size: 10px;
+        font-size: nth($font-size, 1);
         } 
 }
 
