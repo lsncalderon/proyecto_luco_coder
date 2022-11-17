@@ -52,7 +52,7 @@ footer p {
 /*Estilos inicio*/
 .carousel h1 {
   font-family: Comfortaa;
-  color: #c0c0c6;
+  color: #a6a2a3;
 }
 @media screen and (max-width: 600px) {
   .carousel h1 {
@@ -109,6 +109,9 @@ footer p {
     font-size: 12px;
   }
 }
+.miembros .miembros-img {
+  text-align: center;
+}
 
 /*Fin estilos nosotros*/
 /*Estilos Productos*/
@@ -131,6 +134,9 @@ footer p {
 .productos .macetas-portavasos {
   margin-bottom: 20px;
   transition: all 0.5s;
+}
+.productos .col-macetas {
+  text-align: center;
 }
 
 /*Fin Estilos Productos*/

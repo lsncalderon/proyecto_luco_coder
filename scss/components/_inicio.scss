@@ -5,7 +5,7 @@
 .carousel {
     h1{
         font-family: $font-principal;
-        color: nth($color-brand, 1);
+        color: nth($color-brand, 5);
         @media screen and (max-width:600px){
             color: nth($color-brand, 4);
             }
