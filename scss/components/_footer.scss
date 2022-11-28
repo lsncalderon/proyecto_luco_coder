@@ -1,0 +1,31 @@
+@import '../base/variables';
+@import '../base/listas';
+
+/*Estilos Footer*/
+
+footer{
+    background-color: nth($color-brand, 3);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+
+    .logo-redes{
+        width: 30px;
+        margin: 10px;
+        }
+    p{
+        font-family: $font-principal; 
+        padding: 10px;
+        color: nth($color-brand, 2); 
+    }   
+    @media screen and (max-width:600px){
+        font-size: nth($font-size, 1);
+        } 
+}
+
+
+
+
+
+
+/*Fin Estilos Footer*/

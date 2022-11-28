@@ -1,0 +1,23 @@
+/*Estilos Contacto*/
+.contacto {
+    h1{
+        font-family: $font-principal;
+        color: nth($color-brand, 3);
+        @media screen and (max-width:600px){
+            color: nth($color-brand, 4);
+            }
+    }
+    p{
+        font-family: $font-secundaria;
+        color: nth($color-brand, 2);
+    }
+    .mapa {
+        width: 90%;
+        margin-top: 50px;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+
+/*Fin estilos Contacto*/

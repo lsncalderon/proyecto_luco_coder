@@ -1,0 +1,35 @@
+@import '../base/variables';
+@import '../base/listas';
+
+
+/*Estilos header*/
+header {
+    background-color: nth($color-brand, 6);
+    nav{
+        ul{ 
+            li{
+                a{
+                font-family: 'Comfortaa';
+                &:hover{
+                    background-color:nth($color-brand, 1);
+                    border-radius: 8px;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:600px){
+        background-color:nth($color-brand, 3);
+    }
+
+    .logo-principal {
+        width: 80px;
+    }
+    
+    .logo-principal:hover{
+        transform: rotate(360deg); scale: (1.1);
+        transition: all 1s;
+    }
+}
+/*Fin Estilos header*/
+

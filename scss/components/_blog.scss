@@ -1,0 +1,21 @@
+/*Estilos Blog*/
+@import '../base/variables';
+@import '../base/listas';
+
+.blog {
+    h1{
+        font-family: $font-principal;
+        color: nth($color-brand, 4);
+        @media screen and (max-width:600px){
+            color: nth($color-brand, 3);
+            }
+    }
+    p{
+        font-family: $font-secundaria;
+        color: nth($color-brand, 2);
+                @media screen and (max-width:1000px){
+                font-size: nth($font-size, 1);
+            } 
+    }
+}
+/*Fin de Estilos Blog*/

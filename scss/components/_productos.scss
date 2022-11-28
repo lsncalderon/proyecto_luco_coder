@@ -1,0 +1,32 @@
+@import '../base/variables';
+@import '../base/listas';
+
+/*Estilos Productos*/
+
+.productos {
+    h1{
+        font-family: $font-principal;
+        color: nth($color-brand, 4);
+        @media screen and (max-width:600px){
+            color:nth($color-brand, 3);
+            }
+    }
+    p{
+        font-family: $font-secundaria;
+        color: nth($color-brand, 2);
+    }
+
+    .macetas-portavasos:hover {
+        transform: scale(1.05);
+    }
+    
+    .macetas-portavasos {
+        margin-bottom: 20px;
+        transition: all 0.5s;
+    }
+    .col-macetas {
+        text-align: center;
+    }
+}
+
+/*Fin Estilos Productos*/

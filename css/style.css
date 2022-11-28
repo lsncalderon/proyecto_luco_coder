@@ -1,140 +1,191 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+/*Estilos header*/
+header {
+  background-color: #D7D3D4;
+}
+header nav ul li a {
+  font-family: "Comfortaa";
+}
+header nav ul li a:hover {
+  background-color: #c0c0c6;
+  border-radius: 8px;
+}
+@media screen and (max-width: 600px) {
+  header {
+    background-color: #ABDBCA;
+  }
+}
+header .logo-principal {
+  width: 80px;
+}
+header .logo-principal:hover {
+  transform: rotate(360deg);
+  scale: 1.1;
+  transition: all 1s;
 }
 
-/*Estilos Home*/
-.bg-luco {
-    font-family: 'Montserrat Alternates', sans-serif;
-    background-color: #e8e4e5;
-}
-
-.text-inicio {
-    color: #404042;
-    font-family: 'Montserrat Alternates', sans-serif;
-}
-
-.logo-principal {
-    width: 80px;
-}
-
-.logo-principal:hover{
-    transform: rotate(360deg); scale: (2);
-    transition: all 4s;
-}
-/*Fin Estilos Home*/
-
+/*Fin Estilos header*/
 /*Estilos Footer*/
-.footer-container {
-    background-color: #ABDBCA;
-    padding: 20px;
-    display: flex;
-    justify-content:right;
+footer {
+  background-color: #ABDBCA;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+footer .logo-redes {
+  width: 30px;
+  margin: 10px;
+}
+footer p {
+  font-family: Comfortaa;
+  padding: 10px;
+  color: #404042;
+}
+@media screen and (max-width: 600px) {
+  footer {
+    font-size: 12px;
+  }
 }
 
-.footer {
-    background-color: #ABDBCA;
-    padding: 20px;
-    width: 10%;
-    margin-right: 5%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.logo-redes{
-    width: 30px;
-}
 /*Fin Estilos Footer*/
+/*Estilos inicio*/
+.carousel h1 {
+  font-family: Comfortaa;
+  color: #a6a2a3;
+}
+@media screen and (max-width: 600px) {
+  .carousel h1 {
+    color: #FFA384;
+  }
+}
+.carousel p {
+  font-family: Montserrat Alternates;
+  font-size: 20px;
+  color: #404042;
+}
+@media screen and (max-width: 600px) {
+  .carousel p {
+    font-size: 12px;
+  }
+}
 
-
+/*Fin Estilos inicio*/
 /*Estilos nosotros*/
-.text-nosotros{
-    color: #404042;
-    font-family: 'Montserrat Alternates', sans-serif;
-    margin-right: 40px;
+.nosotros h1 {
+  font-family: Comfortaa;
+  color: #FFA384;
+}
+@media screen and (max-width: 600px) {
+  .nosotros h1 {
+    color: #ABDBCA;
+  }
+}
+.nosotros p {
+  font-family: Montserrat Alternates;
+  color: #404042;
+}
+@media screen and (max-width: 1000px) {
+  .nosotros p {
+    font-size: 12px;
+  }
 }
 
-.text-mienbros {
-    color: #404042;
-    font-family: 'Montserrat Alternates', sans-serif;
-    display: flex;
-    justify-content: center; 
+.miembros h2 {
+  font-family: Comfortaa;
+  color: #ABDBCA;
 }
-
-.mienbros-imagen {
-    width: 50%;
+@media screen and (max-width: 600px) {
+  .miembros h2 {
+    color: #FFA384;
+  }
+}
+.miembros p {
+  font-family: Montserrat Alternates;
+  color: #404042;
+}
+@media screen and (max-width: 1000px) {
+  .miembros p {
+    font-size: 12px;
+  }
+}
+.miembros .miembros-img {
+  text-align: center;
 }
 
 /*Fin estilos nosotros*/
-
 /*Estilos Productos*/
-.product-title {
-    color: #404042;
-    font-family: 'Montserrat Alternates', sans-serif;
+.productos h1 {
+  font-family: Comfortaa;
+  color: #FFA384;
 }
-
-.product{
-    display: flex;
-    justify-content: center;
+@media screen and (max-width: 600px) {
+  .productos h1 {
+    color: #ABDBCA;
+  }
 }
-
-.macetas-portavasos:hover {
-    transform: scale(1.2);
+.productos p {
+  font-family: Montserrat Alternates;
+  color: #404042;
 }
-
-.macetas-portavasos {
-    margin-bottom: 20px;
-    transition: all 2s;
+.productos .macetas-portavasos:hover {
+  transform: scale(1.05);
 }
-
-.paragraph-maceta {
-    font-family: 'Montserrat Alternates', sans-serif;
+.productos .macetas-portavasos {
+  margin-bottom: 20px;
+  transition: all 0.5s;
+}
+.productos .col-macetas {
+  text-align: center;
 }
 
 /*Fin Estilos Productos*/
-
 /*Estilos Blog*/
-.text-cuidados {
-    color: #404042;
-    font-family: 'Montserrat Alternates', sans-serif;
+.blog h1 {
+  font-family: Comfortaa;
+  color: #FFA384;
+}
+@media screen and (max-width: 600px) {
+  .blog h1 {
+    color: #ABDBCA;
+  }
+}
+.blog p {
+  font-family: Montserrat Alternates;
+  color: #404042;
+}
+@media screen and (max-width: 1000px) {
+  .blog p {
+    font-size: 12px;
+  }
 }
 
 /*Fin de Estilos Blog*/
-
 /*Estilos Contacto*/
-.contacto-titulo {
-    font-family: 'Montserrat Alternates', sans-serif;
+.contacto h1 {
+  font-family: Comfortaa;
+  color: #ABDBCA;
+}
+@media screen and (max-width: 600px) {
+  .contacto h1 {
+    color: #FFA384;
+  }
+}
+.contacto p {
+  font-family: Montserrat Alternates;
+  color: #404042;
+}
+.contacto .mapa {
+  width: 90%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
 }
 
-.contacto-text{
-    color: #404042;
-    font-family: 'Montserrat Alternates', sans-serif;
-}
-
-.contacto-title {
-    color: #404042;
-    font-family: 'Montserrat Alternates', sans-serif;
-    margin-bottom: 30px;
-}
-
-.mapa {
-    width: 90%;
-    margin-top: 50px;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.datos-container {
-    margin: 10%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.datos {
-    color: #404042;
-    font-family: 'Montserrat Alternates', sans-serif;
-
-}
 /*Fin estilos Contacto*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
