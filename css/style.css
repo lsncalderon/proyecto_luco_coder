@@ -132,11 +132,32 @@ footer p {
   transform: scale(1.05);
 }
 .productos .macetas-portavasos {
-  margin-bottom: 20px;
   transition: all 0.5s;
 }
-.productos .col-macetas {
+.productos .flip-card {
+  background-color: transparent;
+  height: 500px;
   text-align: center;
+}
+.productos .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.productos .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.productos .flip-card-front, .productos .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.productos .flip-card-back {
+  transform: rotateY(180deg);
 }
 
 /*Fin Estilos Productos*/
